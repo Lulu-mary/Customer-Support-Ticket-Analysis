@@ -209,3 +209,14 @@ ORDER BY number_of_tickets DESC;
 | Male            | 2896              | 34.2             |
 | Female          | 2887              | 34.1             |
 | Other           | 2686              | 31.7             |
+## 📌 Key Insights
+- The total number of tickets submitted was 8469.
+- More than half of the tickets were unresolved. Only 2679 tickets were resolved.
+- The average customer rating was 3.0.
+- The average time taken to resolve the ticket was 00:03:27.
+- The most common issue type reported was Refund Request, and the least reported type was Billing Inquiry.
+- 2143 tickets were submitted through Email, making it the most used channel.
+- Though tickets of medium priority were the most submitted, tickets of critical priority had the most resolved tickets. Tickets were resolved in order of priority, with critical topping the list with a percentage of 34.10%.
+- The top 5 products with the most tickets, in descending order of magnitude, are: Canon EOS, GoPro Hero, Nest Thermostat, Amazon Echo, and Philips Hue Lights.
+- The most common issue type reported for each of these products is: product inquiry for Canon EOS, technical issue for GoPro Hero, product inquiry for Nest Thermostat, refund request for Amazon Echo, and cancellation request for Philips Hue Lights.
+-  19.3% of tickets were submitted by customers aged 46-55 years, making them the customers with the most complaints.
