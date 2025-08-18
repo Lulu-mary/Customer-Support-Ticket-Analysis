@@ -44,6 +44,7 @@ ALTER TABLE customer_support_tickets
 DROP COLUMN Ticket_Description;
 ```
 After data cleaning, the data contained 8469 rows and 15 columns.
+
 ## 💻 Exploratory Data Analysis
 ### 1️⃣ What is the total number of tickets submitted?
 ```sql
@@ -209,6 +210,7 @@ ORDER BY number_of_tickets DESC;
 | Male            | 2896              | 34.2             |
 | Female          | 2887              | 34.1             |
 | Other           | 2686              | 31.7             |
+
 ## 📌 Key Insights
 - The total number of tickets submitted was 8469.
 - More than half of the tickets were unresolved. Only 2679 tickets were resolved.
@@ -220,3 +222,21 @@ ORDER BY number_of_tickets DESC;
 - The top 5 products with the most tickets, in descending order of magnitude, are: Canon EOS, GoPro Hero, Nest Thermostat, Amazon Echo, and Philips Hue Lights.
 - The most common issue type reported for each of these products is: product inquiry for Canon EOS, technical issue for GoPro Hero, product inquiry for Nest Thermostat, refund request for Amazon Echo, and cancellation request for Philips Hue Lights.
 -  19.3% of tickets were submitted by customers aged 46-55 years, making them the customers with the most complaints.
+  
+## ⚙️ How to Run
+#### 1. Clone the Repository
+ ```bash
+ git clone https://github.com/Lulu-mary/Customer-Support-Ticket-Analysis.git
+ cd Customer-Support-Ticket-Analysis
+```
+#### 2. Import Data into Database
+- Create a database in Microsoft SQL Server
+- Import [customer_support_tickets.csv](https://github.com/Lulu-mary/Customer-Support-Ticket-Analysis/blob/main/customer_support_tickets.csv) using your preferred method.
+#### 3. Run SQL Scripts
+ Execute [customer support project.sql](https://github.com/Lulu-mary/Customer-Support-Ticket-Analysis/blob/main/customer%20support%20project.sql)
+
+## 👤 Author
+**Mary Obasi**\
+📧 oluchiblake@gmail.com\
+🔗 [LinkedIn](www.linkedin.com/in/mary-obasi)
+
